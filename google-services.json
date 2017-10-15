@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880559849893",
+    "firebase_url": "https://steller-b473b.firebaseio.com",
+    "project_id": "steller-b473b",
+    "storage_bucket": "steller-b473b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880559849893:android:c687536d212973d1",
+        "android_client_info": {
+          "package_name": "com.example.aishanyasingh.steller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880559849893-0sa2ik31p1gt5mi6l42sepatktkvcljt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aishanyasingh.steller",
+            "certificate_hash": "4112055a159850fba64137c11fe687a0b62b895e"
+          }
+        },
+        {
+          "client_id": "880559849893-6ls8qmkqv474a3m5tmdtvp0s0pmg1t47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI3XZFsxkGth7tqXnzg7g5qR1lGxTXCh0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880559849893-6ls8qmkqv474a3m5tmdtvp0s0pmg1t47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

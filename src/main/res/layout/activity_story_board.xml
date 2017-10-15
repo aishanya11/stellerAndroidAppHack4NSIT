@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"><![CDATA[
+
+    tools:context="com.example.hp.myapplication2.storyBoardActivity">
+
+
+    ]]>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="#FFFFFF"
+        app:itemTextColor="#FFFFFF"
+        app:menu="@menu/menu_story_board" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150sp"
+
+
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="204dp"
+            android:layout_marginTop="0sp"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1.01">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1.01">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_border"
+                    android:layout_weight="1.01">
+
+
+
+                    <TextView
+                        android:text="HACKHATHON EXPERIENCE"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_width="250sp" />
+
+                    <TextView
+                        android:text="15/10/17"
+                        android:textColor="#000"
+                        android:layout_marginLeft="260sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/labell"
+                        android:id="@+id/imageView5"
+                        android:layout_width="70sp"
+                        android:layout_height="50sp"
+                        android:layout_marginTop="10sp"
+                        />
+
+                    <TextView
+                        android:text="I recently participated in a hackathon which was organised...   READ MORE"
+                        android:textColor="#000"
+                        android:layout_marginTop="55sp"
+                        android:id="@+id/textView16"
+                        android:layout_width="350sp"
+                        android:layout_height="50sp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_border"
+                    android:layout_weight="1.01">
+
+
+
+                    <TextView
+                        android:text="HACKHATHON EXPERIENCE"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_width="250sp" />
+
+                    <TextView
+                        android:text="15/10/17"
+                        android:textColor="#000"
+                        android:layout_marginLeft="260sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/labell"
+                        android:id="@+id/imageView5"
+                        android:layout_width="70sp"
+                        android:layout_height="50sp"
+                        android:layout_marginTop="10sp"
+                        />
+
+                    <TextView
+                        android:text="I recently participated in a hackathon which was organised...   READ MORE"
+                        android:textColor="#000"
+                        android:layout_marginTop="55sp"
+                        android:id="@+id/textView16"
+                        android:layout_width="350sp"
+                        android:layout_height="50sp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:background="@drawable/layout_border"
+
+                    >
+
+
+                    <TextView
+                        android:text="8/10/17"
+                        android:textColor="#000"
+                        android:layout_marginLeft="260sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/labell"
+                        android:id="@+id/imageView5"
+                        android:layout_marginTop="20sp"
+                        android:layout_width="40sp"
+                        android:layout_height="30sp" />
+
+                    <TextView
+                        android:text="It was a wonderful day....                                                          READ MORE"
+                        android:textColor="#000"
+                        android:layout_marginTop="55sp"
+                        android:id="@+id/textView16"
+                        android:layout_width="350sp"
+                        android:layout_height="50sp"
+                        />
+
+                    <Button
+                        android:text="SAD DAY"
+                        android:background="#fff"
+
+                        android:textColor="#000"
+                        android:textSize="15sp"
+
+                        android:id="@+id/button12"
+                        android:layout_height="25sp"
+                        android:layout_width="100sp"
+                        android:onClick="sad"
+                        />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_border"
+                    android:layout_weight="1.01">
+
+
+
+                    <TextView
+                        android:text="HACKHATHON EXPERIENCE"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_width="250sp" />
+
+                    <TextView
+                        android:text="15/10/17"
+                        android:textColor="#000"
+                        android:layout_marginLeft="260sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/labell"
+                        android:id="@+id/imageView5"
+                        android:layout_width="70sp"
+                        android:layout_height="50sp"
+                        android:layout_marginTop="10sp"
+                        />
+
+                    <TextView
+                        android:text="I recently participated in a hackathon which was organised...   READ MORE"
+                        android:textColor="#000"
+                        android:layout_marginTop="55sp"
+                        android:id="@+id/textView16"
+                        android:layout_width="350sp"
+                        android:layout_height="50sp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_border"
+                    android:layout_weight="1.01">
+
+
+
+                    <TextView
+                        android:text="HACKHATHON EXPERIENCE"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_width="250sp" />
+
+                    <TextView
+                        android:text="15/10/17"
+                        android:textColor="#000"
+                        android:layout_marginLeft="260sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/labell"
+                        android:id="@+id/imageView5"
+                        android:layout_width="70sp"
+                        android:layout_height="50sp"
+                        android:layout_marginTop="10sp"
+                        />
+
+                    <TextView
+                        android:text="I recently participated in a hackathon which was organised...   READ MORE"
+                        android:textColor="#000"
+                        android:layout_marginTop="55sp"
+                        android:id="@+id/textView16"
+                        android:layout_width="350sp"
+                        android:layout_height="50sp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_border"
+                    android:layout_weight="1.01">
+
+
+
+                    <TextView
+                        android:text="HACKHATHON EXPERIENCE"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_width="250sp" />
+
+                    <TextView
+                        android:text="15/10/17"
+                        android:textColor="#000"
+                        android:layout_marginLeft="260sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/labell"
+                        android:id="@+id/imageView5"
+                        android:layout_width="70sp"
+                        android:layout_height="50sp"
+                        android:layout_marginTop="10sp"
+                        />
+
+                    <TextView
+                        android:text="I recently participated in a hackathon which was organised...   READ MORE"
+                        android:textColor="#000"
+                        android:layout_marginTop="55sp"
+                        android:id="@+id/textView16"
+                        android:layout_width="350sp"
+                        android:layout_height="50sp" />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_border"
+                    android:layout_weight="1.01">
+
+
+
+                    <TextView
+                        android:text="HACKHATHON EXPERIENCE"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView14"
+                        android:layout_width="250sp" />
+
+                    <TextView
+                        android:text="15/10/17"
+                        android:textColor="#000"
+                        android:layout_marginLeft="260sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15" />
+
+                    <ImageView
+                        app:srcCompat="@drawable/labell"
+                        android:id="@+id/imageView5"
+                        android:layout_width="70sp"
+                        android:layout_height="50sp"
+                        android:layout_marginTop="10sp"
+                        />
+
+                    <TextView
+                        android:text="I recently participated in a hackathon which was organised...   READ MORE"
+                        android:textColor="#000"
+                        android:layout_marginTop="55sp"
+                        android:id="@+id/textView16"
+                        android:layout_width="350sp"
+                        android:layout_height="50sp" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="STORYBOARD"
+        android:textColor="#000"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"
+        android:id="@+id/textView20"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/bottom_navigation"
+        android:layout_toStartOf="@+id/bottom_navigation"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Button
+        android:text="TOP STORIES"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:background="#0000ff"
+
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignBaseline="@+id/button6"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_toRightOf="@+id/button6"
+        android:layout_toEndOf="@+id/button6"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_width="220sp" />
+
+    <Button
+        android:text="MOST RECENT"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:background="#0000ff"
+
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="190sp"
+        android:layout_alignBottom="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="STORYBOARD"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_height="40sp"
+        android:id="@+id/textView21"
+        android:layout_width="400sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+
+</RelativeLayout>
