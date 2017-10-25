@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
 
-    EditText email_et;
+    EditText email_e;
     EditText pwd_et;
 
     private final String TAG="LoginActivity";
@@ -38,7 +38,7 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(i);
         }
         //dec
-        email_et=(EditText)findViewById(R.id.email_etL);
+        email_e=(EditText)findViewById(R.id.email_etL);
         pwd_et=(EditText)findViewById(R.id.password_etL);
 
         mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -63,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void signin(View view) {
-        String email=email_et.getText().toString();
+        String email=email_e.getText().toString();
         String password=pwd_et.getText().toString();
 
         mAuth.signInWithEmailAndPassword(email, password)
@@ -95,7 +95,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
     public void login(View view) {
-        String email=email_et.getText().toString();
+        String email=email_e.getText().toString();
         String password=pwd_et.getText().toString();
         if(email=="aishanya1999@gmail.com"&&password=="password") {
 
