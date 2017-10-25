@@ -14,15 +14,15 @@ public class readActivity extends AppCompatActivity {
     }
 
     public void home(View view) {
-        Intent i=new Intent(readActivity.this, storyBoardActivity.class );
+        Intent i=new Intent(readActivity.this, storyBoardActivity.class ); //creating new intent
         startActivity(i);
     }
     public void byMood(View view) {
-        Intent i=new Intent(readActivity.this, readByMoodActivity.class );
+        Intent i=new Intent(readActivity.this, readByMoodActivity.class ); //creating new intent
         startActivity(i);
     }
     public void byPenName(View view) {
-        Intent i=new Intent(readActivity.this, readByPenNameActivity.class );
+        Intent i=new Intent(readActivity.this, readByPenNameActivity.class ); //creating new intent
         startActivity(i);
     }
 }
