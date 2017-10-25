@@ -10,6 +10,6 @@ public class storyBoxActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story_box);
     }
-
+//intents to be created
     }
 
