@@ -94,7 +94,8 @@ If a person finds something interesting but is unable to complete it, he can sav
 3.	We faced a lot of difficulty in getting acquainted with the firebase network. We had problems connecting with the server and being amateurs, we faced a lot of problem understanding the documentation. In our project, we tried to implement email authentication and real-time database storage but couldn’t do it due to server problems.  
 
 
-> Future Scope:
+> Future Scope
+
 While the main focus of the project remains on reading and sharing stories of various themes, we can still extend its features as follows:
 •	A narrator can be added to the app which will read aloud the selected stories. This feature is of great use for blind people. Additionally, people stuck in traffic can make use of this facility.
 
