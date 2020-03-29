@@ -97,6 +97,7 @@ If a person finds something interesting but is unable to complete it, he can sav
 > Future Scope
 
 While the main focus of the project remains on reading and sharing stories of various themes, we can still extend its features as follows:
+
 •	A narrator can be added to the app which will read aloud the selected stories. This feature is of great use for blind people. Additionally, people stuck in traffic can make use of this facility.
 
 •	In order to appreciate an author, the reader can drop a message to the author and thus have a conversation if he/she gets a reply.
