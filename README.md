@@ -9,13 +9,13 @@ Team Name: Array
 
 Netaji Subhas Institute of Technology,Delhi
 
-SUMMARY
+> Summary
 
 “Everyone is a writer. Everyone has a story to tell, some are written in the books and some are confined to hearts. In this era of technology, we don’t have time to preserve these uncountable stories that each one of us have. But every story is worth telling.
 And people need stories. Stories of love, hope, survival, wisdom and sometimes pain. ”
 In our effort to do the same, we have demonstrated the use of a Cloud enabled Story telling application  to introduce a new system for development of an on-line Community where not only one can share his or her own stories but can also read others’ stories.
 
-BACKGROUND
+> Background
 
 In the past decade, many new apps have emerged which provide a platform for users to connect and share their opinions. These apps lack a feature which enables the user to read according to their present state of mind and filter content accordingly in way which compliments their mood. 
 The number of platforms like these which are specifically dedicated to sharing ones experiences from day to day life and enabling users to reach out for stories according to their preferences and state of mind are comparatively very less. In addition to that existing applications lack efficiency in many fields.
@@ -24,7 +24,7 @@ The number of platforms like these which are specifically dedicated to sharing o
 
 
 
-Steller App
+> More about Steller App
 
 Steller is the easiest way to discover, create, and share incredible stories with a large no of people using this app.
 
@@ -46,7 +46,7 @@ Steller lets you:
 
 • Follow your favorite users and topics.
 
-Languages and Configuration
+> Languages and Configuration
 
 Operating System on which the app is built: Windows
 
@@ -62,7 +62,7 @@ Operating System on which the app can run: Android version 4.0 or higher
 We designed different activities and layouts on Android Studio using XML language. Design.google.com provided all the basic icons, emoticons and color codes required. The functionalities of various buttons and views were linked using java language. SQLite could be used for storage but Firebase provides better functionalities such as auto authentication, real-time storage, etc. Therefore, firebase is used for backend data handling process.
 
 
-Descriptive Features of the App:
+> Descriptive Features of the App:
 
 Steller is a perfect app for reading real life stories. All stories published on the app are our user’s contributions.
 •	Login/Register to your account to get personalized dashboard.
@@ -74,7 +74,7 @@ The original name of a user will not be displayed anywhere except his/her own pe
 •	Read stories based on your mood or by search tags of different emotions.
 
 
-Different types of searches will be provided to the user:
+> Different types of searches will be provided to the user:
 
 1. By mood -> stories having tags complementing to the entered tag will be displayed. This will include the title and a small content of the story. On selecting one of the search results, whole story will be displayed. Eg. If a person is feeling sad, cheerful stuff will be put up to lighten up his/her mood.
 
@@ -88,13 +88,13 @@ Users will be provided a list of reactions (love, wow, angry, sad, disappointmen
 •	Like a story? Pin it for reading it later
 If a person finds something interesting but is unable to complete it, he can save/pin it for reading it in future.
 
-Challenges Faced
+> Challenges Faced
 1.	Ideation: Designing the front end was simpler than creating a back end since Android Studio provides drag and drop feature. We had to do a little research about how to store our database so that it gets shared with all the devices having Steller app. We found out that firebase provides easy authentication and real time data storage of app data.
 2.	We are a group of three 2nd year students who have no experience in development. By the end of approx four hours, we got familiar and comfortable with android studio which helped us in making the front end of our idea. 
 3.	We faced a lot of difficulty in getting acquainted with the firebase network. We had problems connecting with the server and being amateurs, we faced a lot of problem understanding the documentation. In our project, we tried to implement email authentication and real-time database storage but couldn’t do it due to server problems.  
 
 
-Future Scope:
+> Future Scope:
 While the main focus of the project remains on reading and sharing stories of various themes, we can still extend its features as follows:
 •	A narrator can be added to the app which will read aloud the selected stories. This feature is of great use for blind people. Additionally, people stuck in traffic can make use of this facility.
 
