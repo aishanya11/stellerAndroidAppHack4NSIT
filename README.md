@@ -1,9 +1,6 @@
 ﻿# stellerAndroidAppHack4NSIT
- <p> Platform for people to share their own stories and read others stories
-Each user can sign up/log in, has his/her own profile
-Home page shows suggestion of stories to read
-First attempt at Android development 
-</p>
+ > Platform for people to share their own stories and read others stories. Each user can sign up/log in, has his/her own profile. Home page shows suggestion of stories to read. First attempt at Android development 
+
 Team Name: Array
 > Aishanya Singh 2016UCO1669,
 > Damak Bajaj 2016UCO1647,
