@@ -2,7 +2,7 @@
 Team Name: Array
 > Aishanya Singh 2016UCO1669,
 > Damak Bajaj 2016UCO1647,
-> Priyanka Sahani 2016UCO1667
+
 
 Netaji Subhas Institute of Technology,Delhi
 
