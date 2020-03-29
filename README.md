@@ -64,7 +64,7 @@ Descriptive Features of the App:
 Steller is a perfect app for reading real life stories. All stories published on the app are our user’s contributions.
 •	Login/Register to your account to get personalized dashboard.
 
-       The user can login into his account by entering email id/username. If he has not registered into the sharing community, he can make an account by giving details such as name, pen name, email id, a small bio and password. 
+The user can login into his account by entering email id/username. If he has not registered into the sharing community, he can make an account by giving details such as name, pen name, email id, a small bio and password. 
 •	Select Penname of your own choice and share stories by being anonymous.
 The original name of a user will not be displayed anywhere except his/her own personalized dashboard.  Rather, the penname will be visible to all the users.
 
